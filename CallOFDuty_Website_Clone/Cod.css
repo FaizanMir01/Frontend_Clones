@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    width: 100%;
+    background: rgb(2, 31, 2);
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    color:#969696;
+    font-size: small;
+    padding: 1rem 1.5rem;
+    transition: .5s;
+}
+.links a:hover{
+    color: rgba(172, 255, 47, 0.897);
+    background-color: black;
+
+}
+.logo:hover{
+    color: black;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right a{
+    text-decoration: none;
+    color:#969696;
+    font-size: small;
+    padding: 1rem 1rem;
+    transition: .5s;
+}
+.purchase{
+    margin-left: 1rem;
+}
+
+.purchase a{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.purchase a{
+    padding:1rem;
+    background-color: rgb(92, 148, 9);
+}
+.purchase a:hover{
+    background-color:rgb(104, 165, 12) ;
+}
+.log:hover{
+    color: white
+}
+/**section first**/
+.welcome{
+    height: 670px;
+    background:linear-gradient(to left,rgba(0, 0, 0, 0.7)50%,rgba(0,0,0,0.7)50%),url(./callofduty/back2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.intro{
+    margin-top: 7rem;
+    margin-left: 11%;
+}
+.para p{
+    color: white;
+    padding:1rem 0px 1rem 0px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.intel a{
+    text-decoration: none;
+    color: rgb(81, 0, 148);
+    padding-left:7rem;
+    letter-spacing: 2px;
+}
+.video{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+.box2{
+    display: flex;
+    height: 450pxpx;
+}
+.box3 p{
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
+.series,.mw {
+    position: relative;
+    overflow: hidden;
+  }
+.series img{
+    transition: .5s;
+}
+.series img:hover{
+    transform: scale(1.1);
+}
+.mw img{
+    transition: 1s;
+}
+.mw img:hover{
+    transform: scale(1.1);
+}
+.box3{
+    margin-bottom: 5rem;
+    display: flex;
+    height:450px;
+}
+.mw {
+    position: relative;
+    overflow: hidden;
+  }
+.mw img{
+    transition: 1s;
+}
+.mw img:hover{
+    transform: scale(1.1);
+}
+.navbar2{
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.right2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news{
+    color:white;
+    letter-spacing: 2px;
+    margin-left: 5rem;
+    font-size: 16px;
+}
+.filter{
+    padding-right: 1rem;
+    color:white;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.links2 a{
+    text-decoration: none;
+    padding-right:1rem;
+    color: white;
+    font-size: 13px;
+
+    
+}
+.links2 button{
+    padding: .2rem;
+    margin-bottom: 1rem;
+}
+
+.box4{
+    height:270px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+.box4 p{
+    color: white;
+    padding-top: 2rem;
+    font-size: 15px;
+}
+.box4 img{
+    transition: 1s;
+
+}
+.box4 img:hover{
+    transform: scale(1.1);
+}
+.getthegame{
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.games{
+    height: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game1{
+    margin-left: 1rem;
+    border: 1px solid white;
+}
+.getthegame p{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding-top: 7rem;
+
+}
+.sale{
+    color: white;
+    font-size: 5px;
+    letter-spacing: 2px;
+}
+.navbar3{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.navbar3 a{
+    text-decoration: none;
+    color: #969696;
+    padding: 0rem .5rem;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.navbar4 a{
+    display: block;
+    padding: 1rem;
+}
+.navbar4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ninth p{
+    color:#969696;
+    font-size: 11px;
+    text-align: center;
+}
+.cookie button{
+    padding: .5rem;
+    margin: 1rem 45%;
+    cursor: pointer;
+}
+.flag {
+    margin: 0px 48%;
+}
