@@ -1,0 +1,217 @@
+*{
+    margin: 0PX;
+    padding: 0px;
+}
+body{
+    font-family: 'Bruno Ace', cursive;
+}
+.navbar{
+    height: 76px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.leftside{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.rightside{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.logo img{
+    width: 122px;
+    height: 50px;
+    padding: 0px 1rem;
+}
+.links a{
+    text-decoration: none;
+    color: #ffffff80;
+    padding: 0px 1rem 0px 0px;
+    font-weight: bold;
+    transition: .5s;
+}
+#active{
+    color: #f2a900;
+}
+#active:hover{
+    color: white;
+}
+.links a:hover{
+    color: white;
+}
+.socials a{
+    padding: 0px 2rem 0px 0px;
+}
+.socials i{
+    color: white;
+
+}
+.socials i:hover{
+    color: #f2a900;
+}
+.downloads a{
+    background-color: #f2a900;
+    padding:29px 27px;
+    text-decoration: none;
+    color: #333333;
+    font-weight: bolder;
+}
+.downloads a:hover{
+    background-color: #f2a900da;
+}
+.container1{
+    height:100vh;
+    background-image:url(./bgmiimages/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainheading h1{
+    font-size: 80px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.mainheading,.stores{
+    margin-left: 5rem;
+}
+.stores{
+    margin-top: 1rem;
+}
+.stores a{
+    padding-left: 1rem;
+}
+.mainlogo{
+    position: absolute;
+    bottom: 3px;
+    right: 5rem;
+}
+.container2{
+    height: 1006px;
+    background-image:url(./bgmiimages/videot_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heart h1{
+    font-family: 'Bruno Ace', cursive;
+    padding-bottom: 3rem;
+}
+.container3{
+    height: 750px;
+    background-image: url(./bgmiimages/news_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.cards{
+    display: flex;
+    gap: 2rem;
+}
+.info{
+    background-color: white;
+    
+}
+.info > p{
+    padding: 10px 0rem 5px 9px;
+
+}
+.card1{
+    box-shadow: 1px 1px 5px rgb(201, 196, 196);
+}
+.viewmore a{
+    text-decoration: none;
+    color: #666666;
+    border: 1px solid rgb(156, 153, 153);
+    padding: 1rem 2rem;
+}
+.viewmore a:hover{
+    border: 2px solid black;
+}
+.container4{
+    height: 666px;
+    background-image: url(./bgmiimages/bggg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.partners p{
+    font-family: 'Bruno Ace', cursive;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+.cards2{
+    display: flex;
+    gap: 1rem;
+}
+.card3 img{
+    width: 370px;
+}
+.dim{
+    opacity: 0.5;
+}
+.container5{
+    height: 390px;
+    background-image: url(./bgmiimages/gggggg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.para p{
+    font-family: 'Bruno Ace', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.stores2 a{
+    padding-left: 1rem;
+}
+.container6{
+    height: 160px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    gap: 1rem;
+}
+.copy p{
+    font-size: 10px;
+    color:#999999;
+}
+.links2 a{
+    text-decoration: none;
+    color: #999999;
+    font-size: 10px;
+    border-right: 1px solid #999999;
+    padding: .3rem;
+}
+.links2 a:hover{
+    color: white;
+}
