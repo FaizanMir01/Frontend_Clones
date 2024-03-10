@@ -1,0 +1,487 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:Apex-font;
+    src: url(./Apex-Font/Apex\ Regular.otf);
+}
+/**navbar**/
+.navbar{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    padding: 0rem 1rem;
+    transition: .5s;
+    font-family:'Apex-font';
+    font-weight:lighter;
+    letter-spacing: 2px;
+}
+.logo{
+    padding: 0rem 2rem;
+}
+.download{
+    padding-right: .5rem;
+}
+.download a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.836);
+    padding: .9rem;
+}
+.links a:hover{
+    color: rgba(255, 0, 0, 0.877);
+}
+/**section first**/
+.container1{
+    height: 530px;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%),url(./apex/backg.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    opacity: .8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para p{
+    color: #f3f3f3;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.btns .play{
+    text-decoration: none;
+    width: 200px;
+    padding: 1rem;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.btns{
+    padding-top: 2rem;
+}
+.btns .watch{
+    text-decoration: none;
+    margin-left: 2rem;
+    width: 320px;
+    padding: 1rem;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+/** section second **/
+.container2{
+    height: 430px;
+    background-image: url(./apex/firstsection.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.takeys,.para2,.btn2{
+    margin-right:40% ;
+}
+.takeys h1{
+    font-family: 'Apex-font';
+    letter-spacing: 2px;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 1rem;
+}
+.para2 p{
+    color: #f3f3f3;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.btn2{
+    margin-top: 2rem;
+}
+.btn2 a{
+    text-decoration: none;
+    width: 200px;
+    padding: 1rem;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 15px;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: .3s;
+
+}
+/** section third **/
+.container3{
+    height: 430px;
+    background-image: url(./apex/secondsection.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mix,.para3,.btn3{
+    margin-left:37% ;
+}
+.mix h1{
+    font-family: 'Apex-font';
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding-bottom: 1rem;
+}
+.para3 p{
+    color: #00000081;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.btn3{
+    margin-top: 2rem;
+}
+.btn3 a{
+    text-decoration: none;
+    width: 200px;
+    padding: 1rem;
+    background-color: rgb(250, 250, 250);
+    color: rgb(31, 24, 24);
+    font-size: 15px;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+/** section forth **/
+
+.container4{
+    height: 840px;
+    background-image: url(./apex/back3.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: flex;
+}
+.info{
+    width: 375px;
+    height: 540px;
+    background-color: rgb(26, 22, 22);
+    box-shadow: 5px 10px red;
+    margin: 1rem;
+}
+.info span{
+    color: rgb(255, 0, 0);
+}
+.info p{
+    color: white;
+    padding: 1rem;
+}
+.gg{
+    font-family: 'Apex-font';
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.pp{
+    font-size: 20px;
+}
+.latest h1{
+    font-family: 'Apex-font';
+    letter-spacing: 2px;
+    font-size:40px;
+    padding: 1rem;
+}
+/** section fifth **/
+.container5{
+    height: 700px;
+    background-image: url(./apex/forthsec.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.awards{
+    display: flex;
+}
+.heading h2{
+    font-family: 'Apex-font';
+    letter-spacing: 2px;
+    font-size: 38px;
+    color: #f3f3f3;
+    padding-bottom: 1rem;
+}
+.para4 p{
+    color: #f3f3f3;
+    font-size: 20px;
+    padding: 1rem;
+}
+.award1{
+    text-align: center;
+}
+.award1 h2{
+    font-family: 'Apex-font';
+    letter-spacing: 2px;
+    font-weight: lighter;
+    color:#f3f3f3;
+    padding: 1rem;
+}
+.award1 p{
+    color: #f3f3f3;
+    font-size: 20px;
+    line-height: 2rem;
+}
+/** section sixth **/
+.container6{
+    height: 630px;
+    background-image: url(./apex/back3.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news{
+    margin:0rem 14rem 16rem 0rem;
+}
+.form{
+    margin:0rem 14rem 6rem 0rem ;
+}
+.news h1{
+    font-family: 'Apex-font';
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: lighter;  
+    padding-bottom: 2rem;
+}
+.news p{
+    color: rgba(0, 0, 0, 0.733);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 2rem;
+}
+.email{
+    width: 544px;
+    height: 60px;
+    padding: 16px 24px;
+    font-family: 'Apex-font';
+    font-weight: lighter;
+    letter-spacing:.5rem;
+    border: 1px solid black;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+}
+.bday{
+    width: 256px;
+    height: 60px;
+    padding: 16px 24px;
+    font-family: 'Apex-font';
+    font-weight: lighter;
+    letter-spacing:.5rem;
+    border: 1px solid black;
+    border-radius: .3rem;
+}
+.country{
+    width: 256px;
+    height: 60px;
+    padding: 16px 24px;
+    font-family: 'Apex-font';
+    font-weight: lighter;
+    letter-spacing:.2rem;
+    border: 1px solid black;
+    border-radius: .3rem;
+    margin-left: 1.8rem;
+}
+#sign{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 1.5rem;
+    margin-bottom: 4rem;
+}
+.signup{
+    text-decoration: none;
+    width: 200px;
+    padding: 2rem;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 15px;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.checkbox{
+   position: relative;
+   top: 4rem;
+}
+/** section seeventh **/
+.container7{
+    height: 510px;
+    background-image: url(./apex/black.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container7 div{
+    padding: 1.5rem;
+}
+.but a{
+    text-decoration: none;
+    width: 200px;
+    padding: 1rem;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.title h1{
+    font-family: 'Apex-font';
+    color: #f3f3f3;
+    font-weight: lighter;
+}
+.station_names p{
+    color: #f3f3f3;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.restrict p{
+    color: #f3f3f3;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+/** section eighth **/
+.container8{
+    height: 480px;
+    background-color: rgba(0, 0, 0, 0.801);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.up{
+    display: flex;
+}
+.down{
+    display: flex;
+}
+.links2{
+    margin: 0rem 4rem 4rem 0rem;
+}
+.links2 a {
+    text-decoration: none;
+    color: #f3f3f3bb;
+    padding: 1rem;
+}
+.links2 a:hover{
+    color: red;
+}
+.social{
+    margin:0rem 0rem 0rem 4rem;
+}
+.social p{
+    margin-left: 8rem;
+    font-family: 'Apex-font';
+    color: white;
+    font-size: 15px;
+    font-weight:normal;
+    padding-bottom: 1rem;
+}
+.social i{
+    padding: 1rem;
+    transition: .3s;
+    
+}
+.social i:hover{
+    transform: scale(1.2);
+
+}
+.global{
+    margin-right: 30rem;
+}
+.global a{
+   padding: 1rem;
+}
+/** section ninth**/
+.container9{
+    height: 250px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.links3 a{
+    text-decoration: none;
+    color: #363131bb;
+    padding: 1rem;
+    font-size: 18px;
+}
+.container9 select{
+    font-size: 18px;
+    width: 256px;
+    height: 60px;
+    border: 1px solid rgb(29, 28, 28);
+    border-radius: .3rem;
+    margin-left: 1.8rem;
+}
+.policy{
+    margin-right: 40rem;
+}
+.policy a{
+    margin: 1rem;
+    text-decoration: none;
+    color: #363131bb;
+    padding: 1rem;
+    font-size: 16px;
+}
+.policy p{
+    margin: 1rem;
+    text-decoration: none;
+    color: #363131bb;
+    padding: 1rem;
+    font-size: 16px;
+}
