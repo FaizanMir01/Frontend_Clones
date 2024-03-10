@@ -1,0 +1,257 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*continer1*/
+.container1{
+    height: 720px;
+    background-image: url(./clash/hero_bg_clashofclans_.74bcfed8.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    left: 10%;
+    width: 83%;
+    height: 100px;
+    background-color: black;
+    margin: 0rem auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    z-index: 1;
+    
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 1rem;
+}
+.links a{
+    text-decoration: none;
+    color:#808080;
+    padding: 2rem;
+    font-size: 18px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right a{
+    padding: 1rem;
+    color: #808080;
+}
+#active{
+    color: white;
+}
+.navbar a:hover{
+    color: white;
+}
+ .right img:hover {
+    filter: brightness(0) invert(1);
+}
+/*continer2*/
+.container2{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mobileimage img{
+    position:relative;
+    left: -25%;
+}
+.intro{
+    margin-right: 15%;
+}
+.intro h3{
+    font-size: 34px;
+    color: black;
+    padding: 1rem;
+}
+.intro p{
+    font-size: 18px;
+    padding: 1rem;
+    text-align: justify;
+}
+.intro a{
+    padding: 1rem;
+}
+/*continer3*/
+.container3{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.progress{
+    display: flex;
+    margin-left: 15%;
+}
+.prog{
+    height:73px;
+    width: 140px;
+    border-left: 1px solid black;
+    padding: 0rem .5rem;
+    margin-right: 3rem;
+}
+.timeline{
+    margin-left: 15%;
+    height: 10px;
+    background-image: url(./clash/bg_release_timeline.dbc0af22.png);
+    padding: .5rem 0rem;
+}
+.heading2,.para{
+    margin-left: 15%;
+}
+.heading2 h2{
+    font-size: 34px;
+    padding: 1rem 0rem;
+
+}
+.para p{
+    font-size: 18px;
+    padding: 1rem 0rem;
+}
+.flag{
+    margin: 2rem 0rem .5rem 15%;
+}
+.colorimage{
+    margin-left: 15%;
+    z-index: 0;
+}
+.date{
+    margin-left: 15%;
+}
+.hogrider{
+    position: absolute;
+    right: 2%;
+}
+.hogrider img{
+    z-index: 1;
+}
+/*continer4*/
+.container4{
+    background-image: url(./clash/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mobileimage img{
+    position:relative;
+    left: -20%;
+}
+.intro2{
+    margin-right: 14%;
+}
+.intro2 h3{
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+.intro2 p{
+    color: white;
+    font-size: 18px;
+    padding: 1rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.links2 a{
+    padding-left: .5rem;
+}
+/*continer5*/
+.container5{
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 500pxpx;
+    margin: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+}
+.yt a{
+    text-decoration: none;
+    color: #0f72e4;
+}
+.yt a:hover{
+    color: #808080;
+}
+.yt .sarak{
+    padding-left: 17rem;  
+}
+.yt{
+    padding: 2rem;
+}
+/*continer6*/
+.container6{
+    height: 490px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links3{
+    margin: 4rem 10%;
+}
+.links3 p{
+    font-size: 12px;
+    padding: 1rem;
+}
+.links3 a{
+    margin-left: .5rem;
+    padding-right: 1rem;
+}
+.stores{
+    margin-right: 11rem;
+}
+.stores a{
+    padding: 1rem;
+}
+.links4{
+    margin: 4rem 10%;
+}
+.links4 a{
+    text-decoration: none;
+    color:white;
+    padding:.5rem;
+}
+.links4 p{
+    padding: .5rem;
+    line-height: 1.5rem;
+    color: #808080;
+    font-size: 12px;
+}
+.logo2{
+    margin-right: 11rem;
+}
+.line{
+    height: 2px;
+    width: 80%;
+    margin: 0rem auto;
+    color: white;
+    border-top: 1px solid rgb(95, 90, 90);
+}
