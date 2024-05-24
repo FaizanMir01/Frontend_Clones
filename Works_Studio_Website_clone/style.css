@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif 4', serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.loader{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000a4;
+    color: white;
+    position: fixed;
+    z-index: 99;
+}
+.loader h1{
+    font-size:6vw ;
+    font-weight: 100;
+    line-height: 5vw;
+    position: relative;
+    letter-spacing: -3px;
+    z-index: 9;
+    text-align: center;
+}
+.loader video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 6;
+}
+.yellow1{
+    height: 100%;
+    width: 100%;
+    background-color: #f5e41b;
+    position: absolute;
+    z-index: 8;
+}
+.yellow2{
+    height: 100%;
+    width: 100%;
+    background-color: #f5e41b;
+    position: absolute;
+    z-index: 7;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #f5e41b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.page1 h1{
+    font-size:6vw ;
+    font-weight: 100;
+    line-height: 5vw;
+    letter-spacing: -3px;
+    text-align: center;
+}
+.nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 1rem 5rem;
+}
+.logo svg path{
+    fill:#000000;
+    z-index: 999;
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.elem{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    
+}
+.elem h2{
+    font-size: 7vw;
+    text-transform: uppercase;
+    position: relative;
+    z-index:4;
+    line-height: 5.9vw;
+    font-weight: 500;
+    transition: .2s;
+    
+}
+.elem h2:hover{
+    color: #000000;
+    
+}
+.scroller{
+    width: 100%;
+    background-color: yellow;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) scaleY(0);
+    z-index: 2;
+    transition: all .2s;
+}
+.scroll-content{
+    display: inline-block;
+    padding: .5rem .2rem;
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+.scroller .scroll-content h5{
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 1.2rem;
+    font-weight: 400;
+}
+.blur{
+    height: 100%;
+    width: 40%;
+    background:linear-gradient(to right, rgba(255, 255, 0, 0.932) ,yellow,rgba(255, 255, 0, 0.932));
+    z-index: 3;
+    box-shadow: 10px 0px 15px 10px yellow, -10px 0px 15px 10px yellow;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+@keyframes moving {
+    from{
+        transform: translateX(0);
+
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+
+.elem:hover .scroller{
+    transform: translateY(-50%) scaleY(1);
+}
+
+.page3{
+    min-height: 100vh;
+    width: 100%;
+}
+.img-container{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.img-div{
+    height:40vw;
+    width: 30vw;
+    position: relative;
+}
+.img-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #0000001a;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.4s;
+    
+}
+.line,.line2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.line2 .img-div{
+    height: 30vw;
+}
+.overlay p{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0;
+
+}
+
+.img-div:hover .overlay{
+
+    background-color: #000000;
+}
+.img-div:hover .overlay p{
+    opacity: 1;
+}
+.footer{
+    position: relative;
+    height: 30vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+
+}
+.footer .up{
+   height: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.footer .up p{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.footer .down{
+    background-color: #000000;
+    height: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0rem 3rem;
+}
+.down .right{
+    display: flex;
+    gap: 1rem;
+}
+.footer p{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+}
+.footer p::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    transform: scale(0);
+    transition: transform .2s;
+}
+.footer p:hover::after{
+    transform: scale(1);
+}
+
+@media (max-width:780px) {
+    .img-container{
+        padding: 2rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .img-div{
+        height:50vw;
+        width: 40vw;
+        position: relative;
+    }}
+    .overlay p{
+        font-size: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        opacity: 0;
+    }
+    .footer p{
+        font-size: 1rem;
+        text-transform: uppercase;
+        position: relative;
+        cursor: pointer;
+    }
+
+
+
