@@ -11,5 +11,7 @@
 <a href="https://faizanmir01.github.io/ClashOfClans_website_Clone/">Clash of Clans</a>
 # 5.Netflix Website
 <a href="https://faizanmir01.github.io/Netflix_Website_clone/">Netflix</a>
-# 5.LAzarev Website Clone
+# 6.LAzarev Website Clone
 <a href="https://faizanmir01.github.io/Lazarev-Clone/">Lazarev</a>
+# 7.Works_studio Website Clone
+<a  href="https://faizanmir01.github.io/Works_Studio_Website_clone/">WorksStudio</a>
