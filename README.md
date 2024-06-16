@@ -1,5 +1,5 @@
 # Frontend_Clones 
-### non responsive
+
 ## Demos
 # 1.BGMI Website
 <a href="https://faizanmir01.github.io/BGMI_Website_clone/">BGMI Website</a>
