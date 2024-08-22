@@ -1,487 +1,586 @@
-*{
-
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
+
 @font-face {
-    font-family:Apex-font;
+    font-family: Apex-font;
     src: url(./Apex-Font/Apex\ Regular.otf);
 }
-/**navbar**/
-.navbar{
-    height: 60px;
+
+body {
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navbar */
+.navbar {
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
-.left{
+
+.left, .right {
+    width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-.links a{
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links a {
     text-decoration: none;
     color: white;
-    padding: 0rem 1rem;
+    padding: 0.5rem;
     transition: .5s;
-    font-family:'Apex-font';
-    font-weight:lighter;
+    font-family: 'Apex-font';
+    font-weight: lighter;
     letter-spacing: 2px;
 }
-.logo{
-    padding: 0rem 2rem;
+
+.logo {
+    padding: 0.5rem;
 }
-.download{
-    padding-right: .5rem;
+
+.download {
+    padding: 0.5rem;
 }
-.download a{
+
+.download a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: rgba(255, 0, 0, 0.836);
-    padding: .9rem;
+    padding: 0.9rem;
+    display: inline-block;
 }
-.links a:hover{
+
+.links a:hover {
     color: rgba(255, 0, 0, 0.877);
 }
-/**section first**/
-.container1{
-    height: 530px;
-    background:linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%),url(./apex/backg.jpg);
+
+/* Section first */
+.container1 {
+    min-height: 530px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0,0,0,0.5)50%), url(./apex/backg.jpg);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: cover;
     opacity: .8;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.para p{
-    color: #f3f3f3;
-    font-size: 18px;
+    padding: 20px;
     text-align: center;
-    line-height: 1.5rem;
 }
-.btns .play{
-    text-decoration: none;
-    width: 200px;
-    padding: 1rem;
-    background-color: rgb(255, 0, 0);
-    color: white;
-    font-size: 18px;
-    border-radius: .2rem;
-    cursor: pointer;
-    transition: .3s;
 
+.para p {
+    color: #f3f3f3;
+    font-size: 1rem;
+    line-height: 1.5;
 }
-.btns{
+
+.btns {
     padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.btns .watch{
+
+.btns a {
     text-decoration: none;
-    margin-left: 2rem;
-    width: 320px;
     padding: 1rem;
     background-color: rgb(255, 0, 0);
     color: white;
-    font-size: 18px;
+    font-size: 1rem;
     border-radius: .2rem;
     cursor: pointer;
     transition: .3s;
+    margin: 0.5rem;
 }
-/** section second **/
-.container2{
-    height: 430px;
+
+/* Section second */
+.container2 {
+    min-height: 430px;
     background-image: url(./apex/firstsection.jpg);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    text-align: center;
 }
-.takeys,.para2,.btn2{
-    margin-right:40% ;
-}
-.takeys h1{
+
+.takeys h1 {
     font-family: 'Apex-font';
     letter-spacing: 2px;
     color: white;
-    font-size: 40px;
+    font-size: 2rem;
     padding-bottom: 1rem;
 }
-.para2 p{
+
+.para2 p {
     color: #f3f3f3;
-    font-size: 18px;
-    text-align: center;
-    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
 }
-.btn2{
+
+.btn2 {
     margin-top: 2rem;
 }
-.btn2 a{
+
+.btn2 a {
     text-decoration: none;
-    width: 200px;
     padding: 1rem;
     background-color: rgb(255, 0, 0);
     color: white;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: .2rem;
     cursor: pointer;
     transition: .3s;
-
 }
-/** section third **/
-.container3{
-    height: 430px;
+
+/* Section third */
+.container3 {
+    min-height: 430px;
     background-image: url(./apex/secondsection.jpg);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    text-align: center;
 }
-.mix,.para3,.btn3{
-    margin-left:37% ;
-}
-.mix h1{
+
+.mix h1 {
     font-family: 'Apex-font';
     letter-spacing: 2px;
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 2rem;
     padding-bottom: 1rem;
 }
-.para3 p{
+
+.para3 p {
     color: #00000081;
-    font-size: 18px;
-    text-align: center;
-    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
 }
-.btn3{
+
+.btn3 {
     margin-top: 2rem;
 }
-.btn3 a{
+
+.btn3 a {
     text-decoration: none;
-    width: 200px;
     padding: 1rem;
     background-color: rgb(250, 250, 250);
     color: rgb(31, 24, 24);
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: .2rem;
     cursor: pointer;
     transition: .3s;
 }
-/** section forth **/
 
-.container4{
-    height: 840px;
+/* Section fourth */
+.container4 {
+    min-height: 840px;
     background-image: url(./apex/back3.jpg);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
-.cards{
+
+.cards {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.info{
-    width: 375px;
-    height: 540px;
+
+.info {
+    width: 100%;
+    max-width: 375px;
     background-color: rgb(26, 22, 22);
     box-shadow: 5px 10px red;
     margin: 1rem;
 }
-.info span{
+
+.info span {
     color: rgb(255, 0, 0);
 }
-.info p{
+
+.info p {
     color: white;
     padding: 1rem;
 }
-.gg{
+
+.gg {
     font-family: 'Apex-font';
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
-.pp{
-    font-size: 20px;
+
+.pp {
+    font-size: 1.25rem;
 }
-.latest h1{
+
+.latest h1 {
     font-family: 'Apex-font';
     letter-spacing: 2px;
-    font-size:40px;
+    font-size: 2rem;
     padding: 1rem;
 }
-/** section fifth **/
-.container5{
-    height: 700px;
+
+/* Section fifth */
+.container5 {
+    min-height: 700px;
     background-image: url(./apex/forthsec.jpg);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    text-align: center;
 }
-.awards{
+
+.awards {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.heading h2{
+
+.heading h2 {
     font-family: 'Apex-font';
     letter-spacing: 2px;
-    font-size: 38px;
+    font-size: 2rem;
     color: #f3f3f3;
     padding-bottom: 1rem;
 }
-.para4 p{
+
+.para4 p {
     color: #f3f3f3;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 1rem;
 }
-.award1{
+
+.award1 {
     text-align: center;
+    margin: 1rem;
+    width: 100%;
+    max-width: 375px;
 }
-.award1 h2{
+
+.award1 h2 {
     font-family: 'Apex-font';
     letter-spacing: 2px;
     font-weight: lighter;
-    color:#f3f3f3;
+    color: #f3f3f3;
     padding: 1rem;
 }
-.award1 p{
+
+.award1 p {
     color: #f3f3f3;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 2rem;
 }
-/** section sixth **/
-.container6{
-    height: 630px;
+
+/* Section sixth */
+.container6 {
+    min-height: 630px;
     background-image: url(./apex/back3.jpg);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
-.news{
-    margin:0rem 14rem 16rem 0rem;
+.news, .form {
+    margin: 1rem 0;
+    max-width: 600px;
+    width: 100%;
 }
-.form{
-    margin:0rem 14rem 6rem 0rem ;
-}
-.news h1{
+
+.news h1 {
     font-family: 'Apex-font';
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: lighter;  
     padding-bottom: 2rem;
 }
-.news p{
+
+.news p {
     color: rgba(0, 0, 0, 0.733);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     word-spacing: 2px;
     line-height: 2rem;
 }
-.email{
-    width: 544px;
+
+.email, .bday, .country {
+    width: 100%;
+    max-width: 544px;
     height: 60px;
     padding: 16px 24px;
     font-family: 'Apex-font';
     font-weight: lighter;
-    letter-spacing:.5rem;
+    letter-spacing: .5rem;
     border: 1px solid black;
     border-radius: .3rem;
     margin-bottom: 1rem;
 }
-.bday{
-    width: 256px;
-    height: 60px;
-    padding: 16px 24px;
-    font-family: 'Apex-font';
-    font-weight: lighter;
-    letter-spacing:.5rem;
-    border: 1px solid black;
-    border-radius: .3rem;
-}
-.country{
-    width: 256px;
-    height: 60px;
-    padding: 16px 24px;
-    font-family: 'Apex-font';
-    font-weight: lighter;
-    letter-spacing:.2rem;
-    border: 1px solid black;
-    border-radius: .3rem;
-    margin-left: 1.8rem;
-}
-#sign{
+
+#sign {
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(0, 0, 0, 0.733);
-    font-size: 18px;
+    font-size: 1.125rem;
     word-spacing: 2px;
     line-height: 1.5rem;
     margin-bottom: 4rem;
 }
-.signup{
+
+.signup {
     text-decoration: none;
-    width: 200px;
-    padding: 2rem;
+    padding: 1rem 2rem;
     background-color: rgb(255, 0, 0);
     color: white;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: .2rem;
     cursor: pointer;
     transition: .3s;
-
+    display: inline-block;
 }
-.checkbox{
+
+.checkbox {
    position: relative;
    top: 4rem;
 }
-/** section seeventh **/
-.container7{
-    height: 510px;
+
+/* Section seventh */
+.container7 {
+    min-height: 510px;
     background-image: url(./apex/black.jpg);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    text-align: center;
 }
-.container7 div{
+
+.container7 div {
     padding: 1.5rem;
 }
-.but a{
+
+.but a {
     text-decoration: none;
-    width: 200px;
     padding: 1rem;
     background-color: rgb(255, 0, 0);
     color: white;
-    font-size: 18px;
+    font-size: 1.125rem;
     border-radius: .2rem;
     cursor: pointer;
     transition: .3s;
-
+    display: inline-block;
 }
-.title h1{
+
+.title h1 {
     font-family: 'Apex-font';
     color: #f3f3f3;
     font-weight: lighter;
 }
-.station_names p{
+
+.station_names p {
     color: #f3f3f3;
-    font-size: 25px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5625rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.restrict p{
+
+.restrict p {
     color: #f3f3f3;
-    font-size: 14px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.875rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
-/** section eighth **/
-.container8{
-    height: 480px;
+
+/* Section eighth */
+.container8 {
+    min-height: 480px;
     background-color: rgba(0, 0, 0, 0.801);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding: 20px;
 }
-.up{
+
+.up, .down {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.down{
-    display: flex;
+
+.links2, .social, .global, .purchase {
+    margin: 1rem;
+    text-align: center;
 }
-.links2{
-    margin: 0rem 4rem 4rem 0rem;
-}
+
 .links2 a {
     text-decoration: none;
     color: #f3f3f3bb;
-    padding: 1rem;
+    padding: 0.5rem;
+    display: inline-block;
 }
-.links2 a:hover{
+
+.links2 a:hover {
     color: red;
 }
-.social{
-    margin:0rem 0rem 0rem 4rem;
-}
-.social p{
-    margin-left: 8rem;
+
+.social p {
     font-family: 'Apex-font';
     color: white;
-    font-size: 15px;
-    font-weight:normal;
+    font-size: 0.9375rem;
+    font-weight: normal;
     padding-bottom: 1rem;
 }
-.social i{
+
+.social i {
     padding: 1rem;
     transition: .3s;
-    
 }
-.social i:hover{
-    transform: scale(1.2);
 
+.social i:hover {
+    transform: scale(1.2);
 }
-.global{
-    margin-right: 30rem;
-}
-.global a{
-   padding: 1rem;
-}
-/** section ninth**/
-.container9{
-    height: 250px;
+
+/* Section ninth */
+.container9 {
+    min-height: 250px;
     background-color: #f3f3f3;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding: 20px;
 }
-.links3 a{
+
+.links3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links3 a {
     text-decoration: none;
     color: #363131bb;
-    padding: 1rem;
-    font-size: 18px;
+    padding: 0.5rem;
+    font-size: 1.125rem;
 }
-.container9 select{
-    font-size: 18px;
-    width: 256px;
+
+.container9 select {
+    font-size: 1.125rem;
+    width: 100%;
+    max-width: 256px;
     height: 60px;
     border: 1px solid rgb(29, 28, 28);
     border-radius: .3rem;
-    margin-left: 1.8rem;
+    margin: 1rem 0;
 }
-.policy{
-    margin-right: 40rem;
+
+.policy {
+    text-align: center;
 }
-.policy a{
-    margin: 1rem;
+
+.policy a {
     text-decoration: none;
     color: #363131bb;
-    padding: 1rem;
-    font-size: 16px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    display: inline-block;
 }
-.policy p{
-    margin: 1rem;
-    text-decoration: none;
+
+.policy p {
     color: #363131bb;
-    padding: 1rem;
-    font-size: 16px;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .navbar {
+        flex-wrap: nowrap;
+    }
+    
+    .left, .right {
+        width: auto;
+    }
+
+    .info, .award1 {
+        width: calc(33.33% - 2rem);
+    }
+
+    .container6 {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .news, .form {
+        width: 45%;
+    }
+
+    .bday, .country {
+        width: calc(50% - 0.9rem);
+    }
+}
+
+@media (min-width: 1024px) {
+    .links a {
+        padding: 0 1rem;
+    }
+
+    .takeys h1, .mix h1, .latest h1 {
+        font-size: 2.5rem;
+    }
+
+    .heading h2 {
+        font-size: 2.375rem;
+    }
 }
