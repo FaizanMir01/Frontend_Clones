@@ -14,27 +14,28 @@
 
 </head>
 <body>
-    <div class="navbar">
-        <div class="left">
-            <div class="logo">
-                <a href="#"><img src="./apex/apex-white-nav-logo.svg" alt=""></a>
-            </div>
-            <div class="links">
-                <a href="#">ABOUT </a>
-                <a href="#">MODES</a>
-                <a href="#">SEASON</a>
-                <a href="#">BATTLE PASS</a>
-                <a href="#">NEWS & MEDIA</a>
-                <a href="#">COMMUNITY</a>
-                <a href="#">COMPETE</a>
-            </div>
-        </div>
-        <div class="right">
-            <div class="download">
-                <a href="#">DOWNLOAD FOR FREE</a>
-            </div>
+  <div class="navbar">
+    <div class="left">
+        <div class="logo">
+            <a href="#"><img src="./apex/apex-white-nav-logo.svg" alt="logo"></a>
         </div>
     </div>
+    <div class="hamburger-menu">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="nav-links">
+        <a href="#">ABOUT</a>
+        <a href="#">MODES</a>
+        <a href="#">SEASON</a>
+        <a href="#">BATTLE PASS</a>
+        <a href="#">NEWS & MEDIA</a>
+        <a href="#">COMMUNITY</a>
+        <a href="#">COMPETE</a>
+        <div class="download">
+            <a href="#">DOWNLOAD FOR FREE</a>
+        </div>
+    </div>
+</div>
     <section class="first">
         <div class="container1">
             <div class="logo2">
@@ -228,5 +229,18 @@
             </div>
         </div>
     </section>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          const hamburger = document.querySelector('.hamburger-menu');
+          const menuIcon = document.querySelector("i");
+          const navLinks = document.querySelector('.nav-links');
+  
+          hamburger.addEventListener('click', function() {
+              navLinks.classList.toggle('active');
+              menuIcon.classList.toggle("fa-xmark")
+              
+          });
+      });
+  </script>
 </body>
 </html>
