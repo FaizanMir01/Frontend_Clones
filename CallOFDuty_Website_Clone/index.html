@@ -4,40 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Call of Duty</title>
-    <link rel="stylesheet" href="Cod.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f991bc26f1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="left">
-                <div class="logo">
-                    <a href="#"><img src="./callofduty/cod-logo-white.svg" alt="" width="130px"></a>
-                </div>
-                <div class="links">
-                    <a href="#">GAMES</a>
-                    <a href="#">NEWS</a>
-                    <a href="#">ESPORTS</a>
-                    <a href="#">SUPPORT</a>
-                    <a href="#">SHOP</a>
-                </div>
+  <header>
+    <div class="navbar">
+        <div class="left">
+            <div class="logo">
+                <a href="#"><img src="./callofduty/cod-logo-white.svg" alt="" width="130px"></a>
             </div>
-            <div class="right">
-                <div class="login">
-                    <a href="#" class="log">LOGIN</a>
-                </div>
-                <div class="signup">
-                    <a href="#" class="log">SIGN-UP</a>
-                </div>
-                <div class="purchase">
-                    <a href="#">PURCHASE MWII</a>
-                </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
-    </header>
+        <div class="links">
+            <a href="#">GAMES</a>
+            <a href="#">NEWS</a>
+            <a href="#">ESPORTS</a>
+            <a href="#">SUPPORT</a>
+            <a href="#">SHOP</a>
+        </div>
+        <div class="right">
+            <div class="login">
+                <a href="#" class="log">LOGIN</a>
+            </div>
+            <div class="signup">
+                <a href="#" class="log">SIGN-UP</a>
+            </div>
+            <div class="purchase">
+                <a href="#">PURCHASE MWII</a>
+            </div>
+        </div>
+    </div>
+</header>
     <section class="first">
         <div class="welcome">
             <div class="intro">
@@ -219,5 +222,12 @@
             </div>
         </div>
     </section>
+    <script>
+      document.querySelector('.hamburger i').addEventListener('click', function() {
+          document.querySelector('.links').classList.toggle('active');
+          document.querySelector('.right').classList.toggle('active');
+          document.querySelector('.hamburger i').classList.toggle('fa-xmark');
+      });
+  </script>
 </body>
 </html>
