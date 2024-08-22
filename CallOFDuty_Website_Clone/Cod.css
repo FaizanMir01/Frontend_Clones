@@ -99,7 +99,7 @@ body{
 }
 .box2{
     display: flex;
-    height: 450pxpx;
+    height: 450px;
 }
 .box3 p{
     width: 100%;
@@ -176,10 +176,15 @@ body{
 }
 
 .box4{
-    height:270px;
+    width: 100%;
+    min-height:270px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
     position: relative;
     overflow: hidden;
     margin-bottom: 5rem;
@@ -204,10 +209,13 @@ body{
     justify-content: center;
 }
 .games{
-    height: 540px;
+    min-height: 540px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-content: center;
 }
 .game1{
     margin-left: 1rem;
@@ -334,8 +342,7 @@ body{
     }
 
     .box4 {
-        flex-wrap: wrap;
-        height: auto;
+       text-align: center;
     }
 
     .item1 {
@@ -346,17 +353,6 @@ body{
     .getthegame {
         height: auto;
     }
-
-    .games {
-        flex-wrap: wrap;
-        height: auto;
-    }
-
-    .game1 {
-        width: 45%;
-        margin-bottom: 20px;
-    }
-
     .navbar3 {
         flex-wrap: wrap;
     }
@@ -367,7 +363,7 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .item1, .game1 {
+    .item1 {
         width: 100%;
     }
 }
