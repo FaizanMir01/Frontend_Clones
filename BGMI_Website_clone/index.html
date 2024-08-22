@@ -11,32 +11,35 @@
     <script src="https://kit.fontawesome.com/f991bc26f1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="navbar">
-        <div class="leftside">
-            <div class="logo">
-                <a href="#"><img src="./bgmiimages/logo.png" alt=""></a>
-            </div>
-            <div class="links">
-                <a href="#" id="active">HOME</a>
-                <a href="#">NEWS</a>
-                <a href="#">REDEEM</a>
-                <a href="#">ESPORTS</a>
-                <a href="#">SUPPORT</a>
-                <a href="#">GAME RESPONSIBLY</a>
-            </div>
-        </div>
-        <div class="rightside">
-            <div class="socials">
-                <a href="#"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram fa-xl" ></i></a>
-                <a href="#"><i class="fa-brands fa-youtube fa-xl"></i></a>
-            </div>
-            <div class="downloads">
-                <a href="#">IOS DOWNLOAD</a>
-                <a href="#">AOS DOWNLOAD</a>
-            </div>
+  <div class="navbar">
+    <div class="leftside">
+        <div class="logo">
+            <a href="#"><img src="./bgmiimages/logo.png" alt=""></a>
         </div>
     </div>
+    <div class="hamburger-menu">
+      <i class="fas fa-bars"></i>
+  </div>
+    <div class="nav-links active">
+        <div class="links">
+          <a href="#" id="active">HOME</a>
+        <a href="#">NEWS</a>
+        <a href="#">REDEEM</a>
+        <a href="#">ESPORTS</a>
+        <a href="#">SUPPORT</a>
+        <a href="#">GAME RESPONSIBLY</a>
+        </div>
+        <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-xl" ></i></a>
+            <a href="#"><i class="fa-brands fa-youtube fa-xl"></i></a>
+        </div>
+        <div class="downloads">
+            <a href="#">IOS DOWNLOAD</a>
+            <a href="#">AOS DOWNLOAD</a>
+        </div>
+    </div>
+</div>
     <div class="container1">
         <div class="mainheading">
             <h1>INDIA KA</h1>
@@ -167,6 +170,15 @@
     </div>
 
 
-
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          const hamburger = document.querySelector('.hamburger-menu');
+          const navLinks = document.querySelector('.nav-links');
+  
+          hamburger.addEventListener('click', function() {
+              navLinks.classList.toggle('active');
+          });
+      });
+  </script>
 </body>
 </html>
