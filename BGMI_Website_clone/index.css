@@ -301,6 +301,18 @@ body {
 
     
 }
+@media (max-width: 400px) {
+
+    .mainlogo{
+        width:100%
+        height:auto;
+    }
+    .mainlogo img{
+width:100%;
+        height:auto;
+        
+    
+}
 
 @media (max-width: 1024px) {
     .hamburger-menu {
