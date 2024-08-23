@@ -5,7 +5,7 @@
 }
 header{
     height: 75vh;
-    background:linear-gradient(to top,rgba(0, 0, 0, 0.76)50%,rgba(0,0,0,0.76)50%),url(/netflix/back.jpg);
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.76)50%,rgba(0,0,0,0.76)50%),url(./netflix/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
