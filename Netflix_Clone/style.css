@@ -235,7 +235,6 @@ input[type="radio"]{
     margin-top: 20px;
     margin-bottom: 10px;
 }
-/* Existing styles remain unchanged */
 
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
