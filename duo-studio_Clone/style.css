@@ -278,3 +278,132 @@ footer{
     width: 100%;
     background-color: #EDBFFF;
 }
+#mobile-menu-btn {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #mobile-menu-btn {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .page1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+        
+    }
+    .page1 h1, .page1 h2 {
+        font-size: 10vw;
+    }
+
+    .page2 h1 {
+        font-size: 9vw;
+    }
+
+    .page2-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .page2-left, .page2-right {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .page2-left h2 {
+        font-size: 6vw;
+        line-height: 1.2;
+    }
+
+    .page3 h1 {
+        font-size: 8vw;
+        margin-left: 5vw;
+    }
+
+    .page3-part1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page3-part1 img, .page3-part1 video {
+        width: 90%;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .page4 {
+        padding: 100px 5vw;
+    }
+
+    .elem h1 {
+        font-size: 10vw;
+    }
+
+    .page5 {
+        padding: 100px 5vw;
+    }
+
+    .page5 h2 {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #nav {
+        padding: 0 15px;
+    }
+
+    #nav-part2 {
+        display: none; /* Hide the navigation links on mobile */
+    }
+
+    .page1 video {
+        width: 90%;
+    }
+
+    .page2-right p {
+        font-size: 18px;
+    }
+
+    .elem img {
+        width: 40%;
+        height: auto;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .page1 h1, .page1 h2 {
+        font-size: 12vw;
+    }
+
+    .page2 h1 {
+        font-size: 11vw;
+    }
+
+    .page2-left h2 {
+        font-size: 8vw;
+    }
+
+    .elem h1 {
+        font-size: 12vw;
+    }
+
+    .page5 h2 {
+        font-size: 8vw;
+    }
+}
