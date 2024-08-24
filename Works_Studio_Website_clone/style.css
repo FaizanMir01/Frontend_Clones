@@ -304,5 +304,77 @@ html,body{
         cursor: pointer;
     }
 
-
-
+        .page1 h1, .loader h1 {
+            font-size: 8vw;
+            line-height: 7vw;
+        }
+    
+        .elem h2 {
+            font-size: 10vw;
+            line-height: 8.5vw;
+        }
+    
+        .scroller .scroll-content h5 {
+            font-size: 10px;
+        }
+    
+        .img-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .img-div {
+            height: 60vw;
+            width: 80vw;
+            margin-bottom: 2rem;
+        }
+    
+        .line2 .img-div {
+            height: 60vw;
+        }
+    
+        .footer .down {
+            flex-direction: column;
+            padding: 1rem;
+            gap: 1rem;
+        }
+    
+        .down .right {
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    
+    @media (max-width: 480px) {
+        .nav {
+            padding: 1rem 2rem;
+        }
+    
+        .page1 h1, .loader h1 {
+            font-size: 10vw;
+            line-height: 9vw;
+            letter-spacing: -1px;
+        }
+    
+        .elem h2 {
+            font-size: 12vw;
+            line-height: 10vw;
+        }
+    
+        .img-div {
+            height: 80vw;
+            width: 90vw;
+        }
+    
+        .line2 .img-div {
+            height: 80vw;
+        }
+    
+        .overlay p {
+            font-size: 1.2rem;
+        }
+    
+        .footer p {
+            font-size: 0.9rem;
+        }
+    }
