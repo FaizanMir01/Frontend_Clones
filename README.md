@@ -17,8 +17,7 @@
 <a  href="https://faizanmir01.github.io/Works_Studio_Website_clone/">WorksStudio</a>
 # 8.Duo-Studio Website Clone
 <a href="https://faizanmir01.github.io/Duo-Studio-Frontend-Clone/">Duo Studio</a>
-# 9. ochi Website Clone Front-End 
-<a href="https://ochi-clone-using-react.vercel.app/">Demo</a>
+
 
 
 
