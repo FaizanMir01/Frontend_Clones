@@ -289,7 +289,7 @@ html,body{
         height:50vw;
         width: 40vw;
         position: relative;
-    }}
+    }
     .overlay p{
         font-size: 1rem;
         text-align: center;
@@ -344,6 +344,7 @@ html,body{
             align-items: center;
             gap: 0.5rem;
         }
+    }
     
     @media (max-width: 480px) {
         .nav {
